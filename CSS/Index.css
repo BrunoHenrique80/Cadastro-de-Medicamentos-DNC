@@ -1,0 +1,107 @@
+body{
+    background-color: #f4e9f2;
+    font-family: 'Releway';
+    margin: 0px;
+}
+#top-section{
+    background: #76BEBE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:#F5F5F5;
+}
+header{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+.title {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #CF509C;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.logo {
+    width: 261px;
+    height: 160px;
+}
+
+#sec-form {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 56px;
+}
+form{
+    display: grid;
+    grid-auto-flow: row;
+    max-width: 400px;
+}
+label{
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    padding: 10px;
+}
+input{
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 0;
+    background: rgba(255, 255, 255, 0.57);
+    height: 40px;
+    font-family: 'Alegreya Sans SC';
+    font-size: 25px;
+    width: 500px
+}
+#form{
+    display: grid;
+    grid-auto-flow: row;
+    padding-top: 25px;
+}
+th{
+    
+    width: 72px;
+    height: 10px;
+    left: 200px;
+    top: 0px;
+    font-family: 'Alegreya Sans SC';
+    background: #3E3D3D;
+    border: 1px solid #767373; 
+    color: #ffffff;
+    
+}
+td{
+    background: rgba(255, 255, 255, 0.57);
+    border: 1px solid #767373;
+    text-align: center;
+    font-family: 'Alegreya Sans SC';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+button{
+    background: #76BEBE;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    width: 250px;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+
+    color: #FFFFFF; 
+}
